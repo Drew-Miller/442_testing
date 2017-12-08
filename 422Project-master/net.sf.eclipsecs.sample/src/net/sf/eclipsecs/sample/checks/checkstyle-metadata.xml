@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE checkstyle-metadata PUBLIC
+"-//eclipse-cs//DTD Check Metadata 1.1//EN"
+"http://eclipse-cs.sourceforge.net/dtds/checkstyle-metadata_1_1.dtd">
+<checkstyle-metadata>
+    <rule-group-metadata name="My custom checks"  priority="1600">
+        <description>%MyCustomChecks.desc</description>
+
+        <rule-metadata name="%MethodLimit.name" internal-name="MethodLimit" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.MethodLimitCheck" />
+            <description>%MethodLimit.desc</description>
+            <property-metadata name="max" datatype="Integer" default-value="30">
+                <description>The maximum number of allowed methods.</description>
+            </property-metadata>
+            <quickfix classname="net.sf.eclipsecs.sample.checks.MethodLimitQuickfix" />
+        </rule-metadata>
+        
+        <rule-metadata name="%MeaninglessTerms.name" internal-name="MeaninglessTerms" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.MeaninglessTermsCheck" />
+            <description>%MeaninglessTerms.desc</description>
+            <property-metadata name="terms" datatype="String" default-value="foo,bar,param,par,var">
+                <description>Comma separated list of meaningless words</description>
+            </property-metadata>
+        </rule-metadata>
+        
+        <rule-metadata name="%OverloadedIdentifiers.name" internal-name="OverloadedIdentifiers" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.OverloadedIdentifiersCheck" />
+            <description>%OverloadedIdentifiers.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%ExtremeContraction.name" internal-name="ExtremeContraction" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.ExtremeContraction" />
+            <description>%ExtremeContraction.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%MisspelledWords.name" internal-name="MisspelledWords" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.MisspelledWords" />
+            <description>%MisspelledWords.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%WholePart.name" internal-name="WholePart" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.WholePartCheck" />
+            <description>%WholePart.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%UselessTypeIndication.name" internal-name="UselessTypeIndication" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.UselessTypeIndicationCheck" />
+            <description>%UselessTypeIndication.desc</description>
+        </rule-metadata>
+    </rule-group-metadata>
+</checkstyle-metadata>

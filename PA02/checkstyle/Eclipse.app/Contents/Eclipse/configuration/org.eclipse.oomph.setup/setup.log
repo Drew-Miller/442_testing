@@ -1,0 +1,15 @@
+[2017-11-11 10:01:59] Executing startup tasks
+[2017-11-11 10:02:00] Java(TM) SE Runtime Environment 1.8.0_65-b17
+[2017-11-11 10:02:00] Product self.product.version
+[2017-11-11 10:02:00] Workspace /Users/drewm/Documents/School Work/CS/422_2017/second project/runtime-EclipseApplication
+[2017-11-11 10:02:00] Bundle org.eclipse.oomph.setup 1.8.0.v20170408-0745, build=3098, branch=e12ba4db800d8f30e47fd2525429e2f55baf9396
+[2017-11-11 10:02:00] Bundle org.eclipse.oomph.setup.core 1.8.0.v20170531-0903, build=3098, branch=e12ba4db800d8f30e47fd2525429e2f55baf9396
+[2017-11-11 10:02:00] Bundle org.eclipse.oomph.setup.p2 1.8.0.v20170318-0419, build=3098, branch=e12ba4db800d8f30e47fd2525429e2f55baf9396
+[2017-11-11 10:02:00] Performing Preference /instance/net.sf.eclipsecs.core/background.full.build = false
+[2017-11-11 10:02:00] Performing Preference /instance/net.sf.eclipsecs.core/include.module.ids = false
+[2017-11-11 10:02:00] Performing Preference /instance/net.sf.eclipsecs.core/include.rule.names = false
+[2017-11-11 10:02:00] Performing Preference /instance/net.sf.eclipsecs.core/limit.markers.per.resource = false
+[2017-11-11 10:02:00] Performing Preference /instance/net.sf.eclipsecs.core/marker.amount.limit = 100
+[2017-11-11 10:02:00] Performing Preference /instance/net.sf.eclipsecs.ui/ask.before.rebuild = prompt
+[2017-11-11 10:02:00] Performing Preference /instance/net.sf.eclipsecs.ui/warn.before.losing.filesets = true
+[2017-11-11 10:02:00] 
